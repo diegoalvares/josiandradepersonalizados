@@ -8,5 +8,6 @@
 }
 
 body{
-    background: linear-gradient(to right, var(--rosa), grey);
+    background: linear-gradient(to right,var(--rosa), rgb(233, 107, 128) );
+    height: 100vh;
 }
