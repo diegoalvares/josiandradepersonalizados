@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --rosa: #eeced1;
+}
+
+body{
+    background: linear-gradient(to right, var(--rosa), grey);
+}
