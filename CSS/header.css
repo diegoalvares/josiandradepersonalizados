@@ -1,0 +1,28 @@
+nav{
+    background-color: rgb(248, 94, 120);
+    font-size: 30px;
+    padding: 10px;
+}
+
+#logo{
+    display: flex;
+}
+
+#logo>img{
+    border-radius: 100%;
+    width: 300px;
+
+}
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    
+}
+
+#menu>a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px grey;
+}
