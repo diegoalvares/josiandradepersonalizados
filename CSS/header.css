@@ -1,28 +1,38 @@
+header{
+    height: 96.3vh;
+    display: flex;
+}
+
 nav{
     background-color: rgb(248, 94, 120);
-    font-size: 30px;
-    padding: 10px;
+    font-size: 25px;
+    padding: 20px;
+    width: 18vw;
 }
 
 #logo{
     display: flex;
+    cursor: pointer;
 }
 
 #logo>img{
     border-radius: 100%;
-    width: 300px;
-
-}
-
-#menu{
-    display: flex;
-    justify-content: space-around;
-    width: 1000px;
-    
+    width: 200px;
+    margin-left: 10px;
 }
 
 #menu>a{
     color: white;
+    margin: 10px;
     text-decoration: none;
     text-shadow: 2px 2px 2px grey;
+}
+
+#menu>a:hover{
+    color: rgb(248, 94, 120);
+    background-color: white;
+    padding: 7px;
+    transition-duration: 0.5s;
+    font-size: 28px;
+    border-radius: 10px;
 }

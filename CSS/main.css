@@ -1,8 +1,19 @@
 main{
     background-color: rgb(255, 209, 216);
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgb(163, 163, 163);
+    width: 80vw;
+    display: flex;
+}
+
+#oferta1>img{
+    border-radius: 5%;
+    box-shadow: 2px 2px 20px grey;
+    cursor: pointer;
+}
+
+#oferta1>img:hover{
+    width: 400px;
+    transition-duration: 0.5s;
 }

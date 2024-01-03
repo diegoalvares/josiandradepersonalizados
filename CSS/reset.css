@@ -12,3 +12,7 @@ body{
     background: linear-gradient(to right,var(--rosa) 40%, rgb(253, 152, 169) );
     height: 100vh;
 }
+
+#container{
+    display: flex;
+}
