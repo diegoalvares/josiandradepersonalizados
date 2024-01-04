@@ -1,38 +1,20 @@
 header{
-    height: 96.3vh;
-    display: flex;
-}
-
-nav{
-    background-color: rgb(248, 94, 120);
-    font-size: 25px;
+    background-color: rgb(247, 114, 136);
     padding: 20px;
-    width: 18vw;
-}
-
-#logo{
-    display: flex;
-    cursor: pointer;
+    text-align: center;
 }
 
 #logo>img{
+    width: 300px;
     border-radius: 100%;
-    width: 200px;
-    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
-#menu>a{
+nav>a{
+    text-align: center;
     color: white;
-    margin: 10px;
-    text-decoration: none;
     text-shadow: 2px 2px 2px grey;
-}
-
-#menu>a:hover{
-    color: rgb(248, 94, 120);
-    background-color: white;
-    padding: 7px;
-    transition-duration: 0.5s;
-    font-size: 28px;
-    border-radius: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 12px;   
 }
