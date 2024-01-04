@@ -1,0 +1,32 @@
+@media (max-width: 400px){
+    #container{
+        display: block;
+    }
+
+    body{
+        display: block;
+    };
+    
+    main{
+        display: block;
+    }
+
+    header{
+        display: block;
+    }
+
+    nav{
+        display: block;
+        width: 100vw;
+        font-size: 22px;
+    };
+
+    #menu{
+        display: inline-block;
+    }
+
+    #logo>img{
+        width: 300px;
+        margin: auto;
+    }
+}
