@@ -33,8 +33,8 @@ main{
     background-color: rgb(32, 30, 30);
     color: white;
     font: 30px;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 160px;
+    margin-right: 160px;
     border-radius: 20px 20px 0px 0px;
     padding: 5px;
 }
@@ -42,8 +42,8 @@ main{
 #contato{
     background: linear-gradient(to right , rgb(243, 132, 151),rgb(236, 59, 89));
     border-radius: 0px 0px 20px 20px;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 160px;
+    margin-right: 160px;
     margin-bottom: 20px;
     padding: 20px;
 }
