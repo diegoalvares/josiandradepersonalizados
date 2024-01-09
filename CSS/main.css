@@ -2,7 +2,54 @@ main{
     text-align: center;
 }
 
-#oferta1>img{
-    width: 300px;
+.card>img{
+    width: 500px;
     margin: 20px;
 }
+
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+#container>div>img{
+    width: 400px;
+    margin: 20px;
+    background-color: rgb(236, 59, 89);
+    padding: 10px;
+    border-radius: 20px;
+    height: 500px;
+    box-shadow: 2px 2px 10px grey;
+    cursor: pointer;
+}
+
+#container>div>img:hover{
+    width: 435px;
+    height: 535px;
+    transition-duration: 0.5s;
+    background-color: black;
+}
+
+#cont_titulo{
+    background-color: black;
+    color: white;
+    font: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px;
+}
+
+#contato{
+    background-color: rgb(236, 59, 89);
+    border-radius: 0px 0px 20px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10PX;
+}
+
+#contato>div>a>img{
+    width: 75px;
+    margin: 10px;
+    padding: 10px;
+}
+
