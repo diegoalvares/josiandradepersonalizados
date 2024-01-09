@@ -1,0 +1,82 @@
+#sobre_mim{
+    display: flex;
+    background-color: rgb(238, 153, 167);
+    box-shadow: 2px 2px 20px black;
+    margin-top: 30px;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-right: 50px;
+    border-radius: 10px;
+}
+
+#sobre_mim>div>img{
+    width: 350px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#sobre_mim>p{
+    margin-top: 35px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+    text-align: justify;
+}
+
+#sobre_mim2{
+    display: flex;
+    background-color: rgb(238, 153, 167);
+    box-shadow: 2px 2px 20px black;
+    margin-top: 30px;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-right: 50px;
+    border-radius: 10px;
+}
+
+#sobre_mim2>div>img{
+    width: 350px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+#sobre_mim2>p{
+    margin-top: 35px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+    text-align: justify;
+}
+
+#sobre_mim3{
+    display: flex;
+    background-color: rgb(238, 153, 167);
+    box-shadow: 2px 2px 20px black;
+    margin-top: 30px;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-right: 50px;
+    border-radius: 10px;
+}
+
+#sobre_mim3>div>img{
+    width: 350px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 100%;
+}
+
+#sobre_mim3>p{
+    margin-top: 35px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+    text-align: justify;
+}
