@@ -9,7 +9,7 @@ main{
 
 #container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 #container>div>img{
     width: 400px;
@@ -23,33 +23,41 @@ main{
 }
 
 #container>div>img:hover{
-    width: 435px;
-    height: 535px;
+    width: 450px;
+    height: 600px;
     transition-duration: 0.5s;
-    background-color: black;
+    background-color: rgb(44, 43, 43);
 }
 
 #cont_titulo{
-    background-color: black;
+    background-color: rgb(32, 30, 30);
     color: white;
     font: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     border-radius: 20px 20px 0px 0px;
     padding: 5px;
 }
 
 #contato{
-    background-color: rgb(236, 59, 89);
+    background: linear-gradient(to right , rgb(243, 132, 151),rgb(236, 59, 89));
     border-radius: 0px 0px 20px 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 10PX;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#contato>div>a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px grey;
 }
 
 #contato>div>a>img{
     width: 75px;
-    margin: 10px;
+    margin-top: -10px;
+    margin-bottom: -15px;
     padding: 10px;
 }
-
