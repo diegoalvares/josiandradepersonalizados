@@ -1,6 +1,21 @@
-@media (max-width: 360px){
+@media (max-width: 530px){
+    #container{
+        display: block;
+    }
+
+    #container>div>img{
+        width: 80vw;
+        height: 50vh;
+    }
+
+    #container>div>img:hover{
+        width: 80vw;
+        height: 50vh;
+    }
+
     nav>a{
-        font-size: 25px;
+        font-size: 21px;
+        margin-left: 10px;
     }
 
     #cont_titulo{
