@@ -1,9 +1,0 @@
-@media (min-width: 1000px){
-    #oferta_bloco1{
-        display: block;
-    }
-    
-    #oferta_bloco1>div>img{
-        display: block;
-    }
-}
