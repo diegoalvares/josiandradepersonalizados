@@ -17,7 +17,7 @@
     }
 }
 
-@media (max-width: 360px){
+@media (max-width: 500px){
     #oferta{
         margin: auto;
         width: 87vw;
