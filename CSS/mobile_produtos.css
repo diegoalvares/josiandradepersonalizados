@@ -32,7 +32,9 @@
     }
 
     nav>a{
-        font-size: 25px;
+        font-size: 21px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     #cont_titulo{
