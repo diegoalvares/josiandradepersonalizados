@@ -5,11 +5,12 @@ header{
 }
 
 #logo>img{
-    width: 250px;
+    width: 550px;
     border-radius: 100%;
     margin-bottom: 20px;
     cursor: pointer;
     margin-top: 25px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
 }
 
 nav{
