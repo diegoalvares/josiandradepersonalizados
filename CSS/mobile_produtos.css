@@ -18,6 +18,11 @@
 }
 
 @media (max-width: 500px){
+    
+    #logo>img{
+        width: 85vw;
+    }
+
     #oferta{
         margin: auto;
         width: 87vw;

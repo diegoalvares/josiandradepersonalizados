@@ -1,4 +1,8 @@
 @media (max-width: 500px){
+    #logo>img{
+        width: 85vw;
+    }
+
     nav>a{
         font-size: 21px;
         margin-left: 15px;

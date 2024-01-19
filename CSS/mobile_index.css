@@ -1,4 +1,8 @@
 @media (max-width: 530px){
+    #logo>img{
+        width: 85vw;
+    }
+    
     #container{
         display: block;
     }
